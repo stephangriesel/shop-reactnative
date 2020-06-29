@@ -12,6 +12,12 @@ const ProductDetailsScreen = props => {
             <Text>{selectedProduct.title}</Text>
         </View>
     );
+};
+
+ProductDetailsScreen.navigationOptions = navData => {
+    return {
+        headerTitle: navData.navigation.getParam('productTitle')
+    }
 }
 
 const styles = StyleSheet.create({});
