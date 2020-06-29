@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, Button, Stylesheet, ScrollView } from 'react-native';
+import { View, Text, Image, Button, StyleSheet, ScrollView } from 'react-native';
 
 const ProductDetailsScreen = props => {
     return (
@@ -9,6 +9,6 @@ const ProductDetailsScreen = props => {
     );
 }
 
-const styles = Stylesheet.create({});
+const styles = StyleSheet.create({});
 
 export default ProductDetailsScreen;
