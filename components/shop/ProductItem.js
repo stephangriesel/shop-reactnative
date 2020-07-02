@@ -60,12 +60,12 @@ const styles = StyleSheet.create({
         overflow: 'hidden'
     },
     title: {
-        fontFamily: 'open-sans-bold',
+        // fontFamily: 'open-sans-bold',
         fontSize: 18,
         marginVertical: 4
     },
     price: {
-        fontFamily: 'open-sans-bold',
+        // fontFamily: 'open-sans',
         fontSize: 14,
         color: '#979'
     },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20
     },
     details: {
-        fontFamily: 'open-sans',
+        // fontFamily: 'open-sans',
         alignItems: 'center',
         height: '15%',
         padding: 10
